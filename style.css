@@ -1,0 +1,100 @@
+/* Colors and fonts */
+
+
+body{
+	background-color: rgb(255, 248, 234);
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	text-align: center;
+}
+h1{
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-weight: 800;
+	letter-spacing: 5px;
+	font-size: 32px;
+	text-transform: uppercase;
+	text-align: center;
+}
+h2{
+	color: black;
+	font-family: 'Merriweather', serif;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+img.circle{
+		border-radius: 48%;
+}
+
+/* liens cliquables */
+
+a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+
+a:hover {
+	color: red;
+	text-align: center;
+
+}
+
+h1,h2 {
+	background: white;
+	border: 2px solid black;
+	margin: 20px;
+}
+
+.container{
+	width: 70%;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white{
+    background: white;
+    width: 70%;    
+    margin: 40px auto;
+    padding: 10px; 
+    box-shadow: 1px 1px 1px rgba(0,0,0.1);
+}
+
+li{
+    list-style-type: none;
+}
+
+}
+/* buttons linkedin */
+.button {
+  border: none;
+  color: rgb(7, 107, 107);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
